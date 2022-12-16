@@ -1,0 +1,99 @@
+.header {
+  background-color: #eee;
+  color: #444;
+  width: 100%;
+  border: solid;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible[data-name="category"] {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active[data-name="category"], .collapsible[data-name="category"]:hover {
+  background-color: #630031;
+  color: white;
+}
+
+.collapsible[data-name="category"]:after {
+  content: '\140A';
+  font-size: 16px;
+  color: maroon;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible[data-name="category"]:hover::after {
+  content: "\1401";
+  color: white;
+}
+
+.active[data-name="category"]:after {
+  content: "\1401";
+  color: white;
+}
+
+.content[data-name="menuItem"] {
+  padding: 0 18px;
+  background-color: #e28743;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible[data-name="customize"] {
+  background-color: #F9F3C0;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active[data-name="customize"], .collapsible[data-name="customize"]:hover {
+  background-color: #C62828;
+  color: white;
+}
+
+.collapsible[data-name="customize"]:after {
+  content: '\140A';
+  font-size: 16px;
+  color: maroon;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible[data-name="customize"]:hover::after {
+  color: white;
+}
+
+.active[data-name="customize"]:after {
+  content: "\1401";
+  color: white;
+}
+
+.content[data-name="prices"] {
+  padding: 0 18px;
+  background-color: #F9F3C0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+ul {
+  font-size: 30px;
+  color: #854B19;
+}
