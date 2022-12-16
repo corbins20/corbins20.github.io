@@ -71,7 +71,7 @@
 .collapsible[data-name="customize"]:after {
   content: '\140A';
   font-size: 16px;
-  color: maroon;
+  color: #C62828;
   float: right;
   margin-left: 5px;
 }
@@ -87,13 +87,32 @@
 
 .content[data-name="prices"] {
   padding: 0 18px;
-  background-color: #F9F3C0;
+  background-color: #ECD9C7;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
+h2, h3 {
+  font-family: arial;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #F4D2A2;
+}
+
+h3 {
+  color: #F9EADC;
+}
+
 ul {
-  font-size: 30px;
+  font-size: 25px;
+  font-family: arial;
+  list-style: square;
   color: #854B19;
+}
+
+li {
+  margin: 10px 0;
 }
