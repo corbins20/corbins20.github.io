@@ -1,0 +1,25 @@
+.header {
+  background-image: url('https://bloximages.newyork1.vip.townnews.com/collegiatetimes.com/content/tncms/assets/v3/editorial/f/d3/fd3e2d7c-d573-11e8-b04f-7b51a9c4e597/5bcce8c64e777.image.jpg?resize=400%2C300');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F9EADC;
+  text-align: center;
+  padding: 200px;
+}
+
+.navbar > a {
+  width: 100px;
+}
+
+.footer {
+  background-color: #e28743;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerContent {
+  color: #F9EADC;
+  width: 250px;
+}
